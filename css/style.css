@@ -107,3 +107,65 @@ footer{
     padding:20px;
 
 }
+/* Hero */
+
+header{
+    text-align:center;
+    padding:60px 20px;
+}
+
+.profile-image{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid white;
+    margin-bottom:20px;
+}
+
+.hero-buttons{
+    margin-top:30px;
+}
+
+.btn{
+    display:inline-block;
+    background:#2563eb;
+    color:white;
+    text-decoration:none;
+    padding:12px 24px;
+    margin:8px;
+    border-radius:8px;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#1d4ed8;
+    transform:translateY(-3px);
+}
+
+@media (max-width:768px){
+
+    section{
+        width:95%;
+    }
+
+    nav a{
+        display:block;
+        margin:10px;
+    }
+
+    .profile-image{
+        width:140px;
+        height:140px;
+    }
+
+    .btn{
+        display:block;
+        width:220px;
+        margin:10px auto;
+    }
+
+}
+
+
+
