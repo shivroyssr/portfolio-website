@@ -1,0 +1,109 @@
+/* ===========================
+   General
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    background:#f5f7fa;
+
+    color:#333;
+
+    font-family:Arial, Helvetica, sans-serif;
+
+    line-height:1.6;
+
+}
+
+/* ===========================
+Header
+=========================== */
+
+header{
+
+    background:#0f172a;
+
+    color:white;
+
+    text-align:center;
+
+    padding:40px;
+
+}
+
+/* ===========================
+Navigation
+=========================== */
+
+nav{
+
+    background:#2563eb;
+
+    text-align:center;
+
+    padding:15px;
+
+}
+
+nav a{
+
+    color:white;
+
+    text-decoration:none;
+
+    margin:15px;
+
+    font-weight:bold;
+
+}
+
+/* ===========================
+Sections
+=========================== */
+
+section{
+
+    background:white;
+
+    width:80%;
+
+    margin:30px auto;
+
+    padding:25px;
+
+    border-radius:10px;
+
+}
+
+/* ===========================
+Heading
+=========================== */
+
+h2{
+
+    color:#2563eb;
+
+    margin-bottom:15px;
+
+}
+
+/* ===========================
+Footer
+=========================== */
+
+footer{
+
+    background:#0f172a;
+
+    color:white;
+
+    text-align:center;
+
+    padding:20px;
+
+}
